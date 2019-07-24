@@ -1,0 +1,23 @@
+****infinitive loop
+for (int i = 0; i < 10;) {
+
+			i = i++;
+
+			System.out.println("Hello World" + i);
+		}
+		
+
+
+******code not compile because of y definition must be upper of do
+		do {
+
+			int y = 1;
+
+			System.out.print(y++ + " ");
+		} while (y <= 10);
+		
+
+********* 
+byte a = 40, b = 50;
+	byte sum = (byte) a + b;=> not compile
+	System.out.println(sum);
